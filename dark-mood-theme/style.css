@@ -1,0 +1,82 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 17px;
+    transition: 1s;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    /* background-color:white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+
+}
+.top{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 370px;
+    margin-top: 10px;
+    /* background-color: brown; */
+
+}
+h1{
+    margin: 0;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-weight: 80;
+}
+button{
+
+    color:white;
+    background-color: rgb(243, 80, 107);
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.bottom{
+    width: 100%;
+    height: 82%;
+    line-height: 15px;
+    /* background-color:orangered; */
+}
+h3{
+    color: #E95793;
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+h6{
+    color: #7D7C7C;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-style: italic;
+}
+p{
+    font-family: 'Maven Pro', sans-serif;
+}
+.active{
+    color: white;
+    transition: 1s;
+}
+.active2{
+    background-color: black;
+    transition: 1s;
+}
+.active3{
+    color: black;
+    transition: 1s;
+}
